@@ -588,3 +588,27 @@ body.dark .theme-btn {
     }
 }
 
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .cta-btn {
+        font-size: 0.9rem;
+        padding: 0.7rem 1.2rem;
+    }
+
+    section {
+        padding: 3rem 1rem;
+    }
+
+    .gallery h2,
+    .about-text h2,
+    .contact h2 {
+        font-size: 1.8rem;
+    }
+}
