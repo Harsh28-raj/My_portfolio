@@ -612,3 +612,29 @@ body.dark .theme-btn {
         font-size: 1.8rem;
     }
 }
+window.addEventListener('scroll', () => {
+            const scrollIndicator = document.getElementById('scrollIndicator');
+            const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            scrollIndicator.style.width = scrolled + '%';
+        });
+
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.style.background = 'rgba(0,0,0,0.95)';
+            } else {
+                navbar.style.background = 'rgba(0,0,0,0.9)';
+            }
+        });
+
+
+        function showProject(id) {
+            const projects = {
+                1: "E-Commerce Platform: Built with React and Node.js, featuring real-time inventory, payment integration, and responsive design.",
+                2: "Mobile App UI: Designed with Figma and developed with React Native, focusing on user-centered design principles.",
+                3: "Creative Portfolio: This very website! Built with vanilla HTML, CSS, and JavaScript showcasing modern web techniques.",
+                4: "Performance Dashboard: Vue.js application with Chart.js integration for real-time analytics and data visualization."
+            };
+            
+            alert(projects[id]);
+        }
