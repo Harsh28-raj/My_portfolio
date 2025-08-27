@@ -14,8 +14,7 @@
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
 
 
-A Real-time CryptoCurrency tracking application built with React that provides live price updates and market data using the CoinGecko API.
-
+Hi, I’m Harsh, a Computer Science Engineering student with a passion for building creative and impactful web applications. I enjoy exploring new technologies and have been working with React, Java, and JavaScript to develop interactive projects. I’m always eager to learn, solve challenging problems, and turn ideas into real-world solutions. Alongside academics, I’ve worked on projects like a real-time cryptocurrency tracker, which helped me strengthen my skills in frontend development and API integration. My goal is to grow as a developer and contribute to innovative tech solutions that make a difference.
 
 ## 📸 Screenshots
 
