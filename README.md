@@ -44,5 +44,5 @@ Hi, I’m Harsh, a Computer Science Engineering student with a passion for build
 
 🔧 APIs – Integrating external data (e.g., CoinGecko API) into projects
 
-## 📦 Installation & Setup
+
 
