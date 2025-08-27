@@ -51,11 +51,13 @@ body.dark .theme-btn {
             flex-direction: column;
             gap: 20px;
         }
-        .hero-image{
-            border-radius: 50%;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-
+          .hero-image {
+    width: 200px;          
+    height: 200px;         
+    object-fit: cover;     
+    border-radius: 50%;    
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
         .loader {
             position: fixed;
             top: 0;
@@ -612,3 +614,4 @@ body.dark .theme-btn {
         font-size: 1.8rem;
     }
 }
+
